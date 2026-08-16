@@ -36,6 +36,12 @@
 - Fixed: template typo, placeholders
 - Audited: skeleton parity 1–19, both files
 - Updated: llms.txt DOX (index + invariants)
+- User: Peschel = pretendian claim
+- User: chairman testimony re sale
+- Added: TK F label + §4.6 family knowledge
+- Added: spirit-house protection §8.2
+- Names: kept OUT of license text
+- Next: user records hunt (deed, NRHP, GLO)
 
 ####
 
