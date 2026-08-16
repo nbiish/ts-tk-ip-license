@@ -1,10 +1,32 @@
 # 📜 Tribal Sovereignty Software License Template
 
-This repository provides a comprehensive software license template (`@LICENSE`) incorporating tribal sovereignty protections, Traditional Knowledge (TK) labels, and federal Indian law provisions. Tribal members can use this as a starting point for their own software projects.
+This repository provides a comprehensive software license template (`comprehensive-license/LICENSE`) incorporating tribal sovereignty protections, Traditional Knowledge (TK) labels, and federal Indian law provisions. Tribal members can use this as a starting point for their own software projects.
+
+## 🆕 Template v2.0 (2026) — Major Rebuild
+
+**What changed and why:** v2.0 rebuilds the license around enforcement mechanics that have been verified against primary sources. Highlights:
+
+| Improvement | Where (v2.0) | Why |
+|---|---|---|
+| Every term is a enforceable **license condition**, not just a covenant | §2.2 | `Jacobsen v. Katzer`, 535 F.3d 1373 (Fed. Cir. 2008) — conditions unlock Copyright Act remedies (statutory damages, injunctions) |
+| Tribal-court jurisdiction grounded in **consent** | §§ 1.10, 14.1 | `Montana v. United States`, 450 U.S. 544, 565 (1981) consensual-relationship exception |
+| **Corrected** tribal-judgment recognition: comity, not § 1738 | §14.4 | `Wilson v. Marchington`, 127 F.3d 805 (9th Cir. 1997); Mich. Ct. R. 2.615 |
+| **Honest immunity clause**: individual members don't hold tribal immunity | §16.2 | `Bay Mills`, 572 U.S. 782 (2014) protects the Tribe, not individuals |
+| **AI & data sovereignty** section: no-training condition, TDM opt-out, CARE Principles, IEEE 2890-2025 provenance | §5 | ✓ verified 2025–2026 standards and AI case law |
+| **Fallback ladders** under every aggressive clause | §§12.2, 13.3 | A court striking a maximal term degrades to an enforceable rung, not to zero |
+| Cultural patrimony / **anti-alienation** protections (NAGPRA) | §8 | 25 U.S.C. §§ 3001–3013 |
+| Optional **treaty-waters/maritime** section for coastal & Great Lakes Nations | §7 | e.g., `United States v. Michigan` 2023 Consent Decree |
+| Corrected **Supremacy Clause** framing | §6.2 | Treaties trump state law; licenses force comes from copyright conditions + consent |
+| **Truth-tagged international annex** | §15, Annex A | Every instrument marked: binding / endorsed / signed-not-ratified / persuasive |
+
+**Old → new section map:** v1 §1 Attribution → §3 · v1 §2 TK Labels → §4 · v1 §3 Revocation → §§6, 12 · v1 §4 Prohibited Uses → §10 · v1 §5 Permissible Uses → §11 · v1 §6 Consent → §9 · v1 §7 Compensation → §13 · v1 §8 Alternative Forums → §14 · v1 §9 Governing Law → §15 · v1 §10 Remedies → §13 · v1 §12 Immunity → §16 · v1 §13 Severability → §17 · v1 §14 Amendments → §18.
+
+**Fixed financial figures are now draft defaults** (royalty ≥20%, §504(c) benchmark to $150k per work, liquidated-damages ladder) — they intentionally mirror real statutes (17 U.S.C. §504(c); 25 U.S.C. §305e(b)) instead of arbitrary placeholders, but **must still be reviewed by your legal counsel** before use.
+
 
 ## 💡 Quick Start: Using This Template
 
-1.  **Get the Template:** Copy the `@LICENSE` file into your project and rename it `LICENSE`.
+1.  **Get the Template:** Copy the `comprehensive-license/LICENSE` file into your project and rename it `LICENSE`.
 2.  **Customize:** Follow the "🛠️ Customizing Your License" section below to replace placeholders and adapt terms.
 3.  **Review:** Ensure mandatory legal and cultural reviews are completed by appropriate tribal authorities (See "⚠️ Critical Legal & Cultural Review").
 4.  **Implement:** Use the finalized `LICENSE` file in your software project.
@@ -43,36 +65,38 @@ Follow this process to adapt the `@LICENSE` template for *your* project:
         - Current Year: [Current Year]
         - My State: [Your State Name]
 
-        For any remaining placeholders (like <|specific_treaty_...|>, <|tribal_court_name|>, <|interest_rate_percentage|> in Section 7, etc.), please list them clearly and ask me for the specific information needed. Explain what each requires if I'm unsure."
+        For any remaining placeholders (like <|specific_treaty_...|>, <|tribal_court_name|>, <|community_description|>, <|license_identifier|>, etc.), please list them clearly and ask me for the specific information needed. Explain what each requires if I'm unsure."
         ```
     *   *Follow Up:* Answer the AI's questions to fill in the remaining details.
 
 2.  **⚠️ Critical Legal & Cultural Review (Mandatory):**
     *   **Consult Experts:** Take the partially filled license to your **Tribal Legal Department** (or qualified Indian law attorney) AND your **Cultural Authorities/Elders**.
     *   **Legal Verification:** Your legal team MUST review:
-        *   Treaty references (`<|specific_treaty_...|>`) and overall sovereignty assertions (Section 3) for accuracy and applicability to *your* Nation.
-        *   Jurisdictional clauses (`<|tribal_court_name|>`, alternative forums in Section 8, governing law in Section 9).
-        *   Enforcement mechanisms and remedies (Sections 7, 10), including the specific financial figures (`<|interest_rate...|>`, `<|statutory_damages...|>`, etc.). Ensure alignment with *your* tribal code and court capabilities.
-        *   Waivers and immunity statements (Sections 7.6, 12).
+        *   Treaty references (`<|specific_treaty_...|>`) and sovereignty/treaty assertions (Sections 6, 7) for accuracy and applicability to *your* Nation.
+        *   Jurisdictional clauses (`<|tribal_court_name|>`, consent and alternative forums in Section 14, governing law layering in Section 15).
+        *   Enforcement and remedies (Section 13), including the default damages figures (20% royalty, $10,000/day liquidated damages ladder). These mirror 17 U.S.C. §504(c) and 25 U.S.C. §305e(b) benchmarks — verify they fit *your* facts and tribal code.
+        *   Immunity and identity statements (Section 16) — v2.0 no longer claims personal sovereign immunity for individuals; confirm this fits your structure (e.g., if your *Nation itself* will hold the license, ask counsel about adding a limited waiver).
+        *   AI/data restrictions (Section 5) for compatibility with any planned public data releases.
     *   **Cultural Verification:** Your cultural authorities MUST review:
-        *   TK Labels (Section 2) to ensure they accurately reflect *your* community's protocols.
-        *   Prohibited/Permissible Uses (Sections 4, 5) for alignment with cultural values and protocols.
-        *   References to traditional practices or values (e.g., Sections 7.2c, 7.5c, 10e).
+        *   TK Labels (Section 4.2) to ensure they accurately reflect *your* community's protocols (Local Contexts taxonomy).
+        *   Prohibited/Permissible Uses (Sections 10, 11) for alignment with cultural values and protocols.
+        *   Cultural patrimony and burial protections (Section 8), and Community Protocols to be recorded in Annex B.
     *   **Coordinate:** Ensure legal and cultural reviews are integrated.
 
 3.  **Final Checks:**
     *   Confirm all `<|placeholders|>` have been correctly filled or removed.
-    *   Double-check the GitHub URL in the citation (Section 1).
+    *   Double-check the GitHub URL in the citation (Section 3.1).
+    *   If your Nation is not coastal/Great Lakes/riverine, delete Section 7 and renumber.
     *   Rename the file from `@LICENSE` to `LICENSE`.
 
-## 📌 Placeholder Reference List (in `@LICENSE`)
+## 📌 Placeholder Reference List (in `comprehensive-license/LICENSE`)
 
 This is a quick reference to the types of placeholders you'll need to fill:
 
-*   **Basic Info:** `<|current_year|>`, `<|author_name_indigenous|>`, `<|author_name|>`, `<|tribal_nation_name|>`, `<|repo_title|>`, `<|github_username|>`, `<|state_name|>`, `<|your_nation_ancestral_names|>`
-*   **Legal Specifics:** `<|specific_treaty_1_name_year|>`, `<|specific_treaty_2_name_year|>`, `<|tribal_court_name|>`
-*   **Financial Terms (Section 7 - Discuss with Legal Counsel):** `<|interest_rate_percentage|>`, `<|royalty_rate_percentage|>`, `<|statutory_damages_amount|>`, `<|liquidated_damages_per_day|>`
-*   **Review Areas (Marked with `<!-- ... -->`):** TK Labels (Section 2), Prohibited Uses (Section 4), Permissible Uses (Section 5), Consent Reporting (Section 6), Timeframes (Section 8.2), Cost Recovery (Section 8.3), Enforcement Case Law (Section 8.4), Waivers (7.6, 8.5), Penalties (Section 10d), Immunity Scope (Section 12).
+*   **Basic Info:** `<|current_year|>`, `<|author_name_indigenous|>`, `<|author_name|>`, `<|tribal_nation_name|>`, `<|community_description|>`, `<|repo_title|>`, `<|github_username|>`, `<|state_name|>`, `<|license_identifier|>`, `<|licensor_notice_contact|>`
+*   **Legal Specifics:** `<|specific_treaty_1_name_year_stat_cite|>`, `<|specific_treaty_2_name_year_stat_cite|>`, `<|treaty_reserved_rights_summary|>`, `<|tribal_court_name|>`
+*   ** Damages defaults (Section 13 — NOT placeholders; discuss with legal counsel):** 20% gross-revenue royalty; $10,000/day liquidated damages with fallback ladder to 17 U.S.C. §504(c) statutory damages and the IACA §305e(b) $1,000/day benchmark.
+*   **Review Areas (Marked `[ADAPT]` / `[OPTIONAL]` in the template):** TK Labels (4.2), Treaty foundations (Section 6), Maritime section (Section 7 — delete for inland Nations), Community definition (1.8), Annexes A–C.
 
 ## ✅ Implementation Checklist (for Your Project)
 
@@ -97,19 +121,19 @@ Experts reviewing this *template* or a user's *adaptation* can use these prompts
     ```
 2.  **Jurisdiction Focus**:
     ```
-    "Evaluate the tribal court selection (Section 8) and governing law (Section 9) clauses for compatibility with [Target Tribe]'s judicial system and inter-tribal relations jurisprudence. Suggest modifications for clarity, enforceability within [Target Tribe]'s courts, and addressing comity/full faith & credit issues, referencing [Target Tribe]'s relevant codes or case law."
+    "Evaluate the consensual-jurisdiction and forum-selection clauses (Sections 1.10, 14) and governing-law layering (Section 15) for compatibility with [Target Tribe]'s judicial system and inter-tribal relations jurisprudence. Suggest modifications for clarity, enforceability within [Target Tribe]'s courts, and addressing comity (Wilson v. Marchington) and state recognition rules, referencing [Target Tribe]'s relevant codes or case law."
     ```
 3.  **TK Label & Protocols Verification**:
     ```
-    "Review TK labels (Section 2) and use restrictions/permissions (Sections 4, 5) against [Target Nation]'s specific cultural protocols for knowledge/data protection, sharing, consent, and digital representation. Suggest additions, removals, or modifications to align with these protocols."
+    "Review TK labels (Section 4) and use restrictions/permissions (Sections 10, 11) against [Target Nation]'s specific cultural protocols for knowledge/data protection, sharing, consent, and digital representation. Suggest additions, removals, or modifications to align with these protocols."
     ```
 4.  **Treaty Specifics**:
     ```
-    "Adapt Section 3 to explicitly reference [Target Tribe]'s key treaties (e.g., [Treaty Name Year]) and reserved rights doctrine as recognized under their specific legal history. Draft revised text for Section 3 strengthening the sovereignty assertion based on these specific treaties."
+    "Adapt Sections 6 and 7 to explicitly reference [Target Tribe]'s key treaties (e.g., [Treaty Name Year, Stat. citation]) and reserved rights doctrine as recognized under their specific legal history. If [Target Tribe] has no treaty-water interests, confirm deletion of Section 7. Draft revised text strengthening the sovereignty assertion based on these specific treaties."
     ```
 5.  **Enforcement & Remedies Strategy**:
     ```
-    "Assess the remedies (Section 10), compensation (Section 7), and enforcement framework. Propose modifications tailored to [Target Tribe]'s legal environment, court capabilities, available remedies (including traditional ones referenced in tribal code), and judgment enforcement procedures. Evaluate the 'Sovereign Revocation Right' (Section 3) under [Target Tribe]'s law."
+    "Assess the remedies and damages ladder (Section 13), revocation framework (Sections 6, 12), and enforcement tracks (Section 14). Propose modifications tailored to [Target Tribe]'s legal environment, court capabilities, available remedies (including traditional ones referenced in tribal code), and judgment enforcement procedures. Stress-test the fallback rungs: if a court strikes the primary assertion, does the ladder still yield meaningful relief?"
     ```
 
 ## 🌱 Expanding Protection: Call for Expertise in Other IP Areas

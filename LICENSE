@@ -1,234 +1,1004 @@
-Copyright © 2025 ᓂᐲᔥ Nbiish-Justin Kenwabikise ᑭᓇᐙᐱᑭᓯ. All rights reserved.
+Copyright © 2026 ᓂᐲᔥ Nbiish-Justin Kenwabikise ᑭᓇᐙᐱᑭᓯ. All rights reserved.
+License Identifier: LicenseRef-NbiishTribalSovereignty-2.0
+                                                                           
+COMPREHENSIVE RESTRICTED USE LICENSE FOR INDIGENOUS CREATIONS
+WITH TRIBAL SOVEREIGNTY PROTECTIONS
 
-COMPREHENSIVE RESTRICTED USE LICENSE WITH TRIBAL SOVEREIGNTY PROTECTIONS
-
+============================================================================
 PREAMBLE
-This software is created by ᓂᐲᔥ Nbiish-Justin Kenwabikise ᑭᓇᐙᐱᑭᓯ, a member of the Grand Traverse Band of Ottawa and Chippewa Indians, a federally recognized sovereign tribal nation. This license is grounded in the inherent sovereignty of Indigenous peoples to protect, control, and govern the use of their intellectual and cultural property. The unique status of tribal sovereign nations in the United States provides additional protections beyond standard copyright law.
+============================================================================
 
-This license expressly integrates principles from Traditional Knowledge (TK) Labels and Protocols, federal Indian law, tribal law of the Grand Traverse Band of Ottawa and Chippewa Indians, and international indigenous rights frameworks to create a comprehensive protection system for this intellectual property.
+This Work (defined in Section 1) is created and stewarded by ᓂᐲᔥ
+Nbiish-Justin Kenwabikise ᑭᓇᐙᐱᑭᓯ (the "Licensor"), a member of the Grand
+Traverse Band of Ottawa and Chippewa Indians ("GTB"), a federally recognized
+sovereign tribal nation, and a descendant of the Beaver Island Band of Ottawa
+and Chippewa ("Beaver Island Band" or "BIB"), whose families are today
+enrolled across both the Grand Traverse Band and the Little Traverse Bay Bands
+of Odawa Indians ("LTBB"). The Beaver Island Band never ceded its inherent
+relationship to the Beaver Island archipelago, its waters, or its cultural
+patrimony through any act of Congress or voluntary surrender of rights
+recognized by the Band itself.
 
-1. CITATION AND ATTRIBUTION REQUIREMENT
-   Any use, reproduction, distribution, modification, or derivative work based on this software must prominently include the following citation and attribution:
+This License is grounded in the inherent sovereignty of Indigenous peoples to
+protect, control, and govern the use of their intellectual and cultural
+property — a sovereignty that predates the United States Constitution and was
+never surrendered. It expressly integrates and asserts rights under:
 
-   @misc{<|repo_title|><|current_year|>,
-     author = {ᓂᐲᔥ Nbiish-Justin Kenwabikise ᑭᓇᐙᐱᑭᓯ},
-     title = {<|repo_title|>},
-     year = {<|current_year|>},
-     publisher = {GitHub},
-     journal = {GitHub repository},
-     howpublished = {\url{https://github.com/nbiish/<|repo_title|>}},
-     note = {Created by a member of the Grand Traverse Band of Ottawa and Chippewa Indians, protected under tribal sovereignty and treaty rights}
-   }
+    (a)  United States copyright law (17 U.S.C.), which supplies this
+         License's primary enforcement machinery, including the doctrine that
+         license CONDITIONS are enforceable as limits on the scope of the
+         copyright permissions granted (Jacobsen v. Katzer, 535 F.3d 1373
+         (Fed. Cir. 2008));
+    (b)  Federal Indian law, including the reserved rights doctrine, the
+         Indian canons of construction, treaty rights under the Treaty of
+         Washington (1836), 7 Stat. 491, and the Treaty of Detroit (1855),
+         11 Stat. 621, and the tribal-court consent doctrine of Montana v.
+         United States, 450 U.S. 544, 565 (1981);
+    (c)  Traditional Knowledge (TK) Labels and protocols developed through
+         the Local Contexts initiative;
+    (d)  Indigenous Data Sovereignty frameworks: the CARE Principles for
+         Indigenous Data Governance (Carroll et al., Data Science Journal
+         19:43 (2020), DOI 10.5334/dsj-2020-043) and IEEE 2890-2025 (IEEE
+         Recommended Practice for Provenance of Indigenous Peoples' Data);
+    (e)  International Indigenous-rights instruments, including the United
+         Nations Declaration on the Rights of Indigenous Peoples (UNDRIP,
+         2007) and the American Declaration on the Rights of Indigenous
+         Peoples (OAS, 2016), each according to its true legal status as
+         stated in Annex A; and
+    (f)  The laws, customs, and traditions of the Grand Traverse Band of
+         Ottawa and Chippewa Indians and of the Beaver Island Band families.
 
-   Furthermore, any projects utilizing this software must visibly acknowledge the Indigenous authorship and tribal affiliation in user interfaces and documentation, including:
-   a) Attribution on all user-facing interfaces where the software is used
-   b) Acknowledgment in technical documentation, including API documentation
-   c) Citation in any publications, presentations, or derivative works that utilize this software
-   d) Recognition that this work is subject to the traditional knowledge protocols of the Grand Traverse Band of Ottawa and Chippewa Indians
+Nothing in this License claims for the Licensor, an individual, the sovereign
+immunity that belongs only to tribal governments (see Section 16). Nothing in
+this License takes any position in any dispute between the Grand Traverse Band
+and the Little Traverse Bay Bands concerning the Beaver Island archipelago;
+this License protects the Work and the cultural patrimony of the Beaver Island
+archipelago and its descendant families, wherever enrolled.
 
-2. TRADITIONAL KNOWLEDGE (TK) PROTECTION AND LABELING
-   This software embodies elements of Traditional Knowledge (TK) and cultural expression that require special protection. The copyright holder asserts both western intellectual property rights and Indigenous rights over this material. This work is assigned the following TK Labels:
+============================================================================
+1. DEFINITIONS AND TRADITIONAL KNOWLEDGE TAXONOMY
+============================================================================
 
-   TK Attribution (TK A) - This material has community-specific rules about how attribution should be given to the creator and their nation/community.
-   
-   TK Culturally Sensitive (TK CS) - This material contains content that requires special cultural protocols for access, use, and handling.
-   
-   TK Community Use Only (TK CO) - This material has specific protocols regarding use by the community and restrictions on use by those outside the community.
-   
-   TK Non-Commercial (TK NC) - This material should not be used for commercial purposes without explicit permission.
-   
-   TK Verified (TK V) - This material has been created by a verified member of the specified Indigenous community.
+For purposes of this License:
 
-   No rights are waived under the United Nations Declaration on the Rights of Indigenous Peoples (UNDRIP), particularly Articles 11 and 31 regarding Indigenous peoples' right to maintain, control, protect, and develop their intellectual property over cultural heritage, traditional knowledge, and cultural expressions.
+1.1  "Work" means the software, source code, object code, documentation,
+     data structures, datasets, user interfaces, designs, text, audio,
+     video, language resources, and any other original expression authored
+     or stewarded by the Licensor and distributed under this License,
+     together with all associated Traditional Knowledge and Cultural
+     Expressions, whether or not separately copyrightable.
 
-3. SOVEREIGN REVOCATION RIGHT UNDER CONSTITUTIONAL SUPREMACY
-   As a member of a sovereign tribal nation, the copyright holder reserves and asserts the absolute, irrevocable, and perpetual right to demand the immediate cessation of use, reproduction, distribution, or creation of derivative works of this software by any individual, entity, corporation, or artificial intelligence system, at any time and for any reason.
-   
-   This sovereign right derives from and is protected by Article VI, Clause 2 of the United States Constitution (the Supremacy Clause), which establishes that treaties with Indian tribes are "the supreme Law of the Land; and the Judges in every State shall be bound thereby, any Thing in the Constitution or Laws of any State to the Contrary notwithstanding." The treaties with the Ottawa and Chippewa Nations, including the Treaty of Washington (1836) and Treaty of Detroit (1855), are constitutionally superior to ordinary contractual agreements and state laws.
-   
-   Under the reserved rights doctrine established by the United States Supreme Court, tribes retain all sovereign powers not expressly surrendered in treaties. The Grand Traverse Band of Ottawa and Chippewa Indians retains governance over its cultural and intellectual heritage, as these rights were never ceded. Only Congress may abrogate Indian treaty rights, and courts will not find abrogation has occurred absent clear and explicit congressional intent—a high threshold deliberately designed to safeguard tribal sovereignty. No such abrogation exists regarding the intellectual property rights asserted herein.
-   
-   As affirmed by the Supreme Court in Michigan v. Bay Mills Indian Community, 572 U.S. 782 (2014), tribal sovereign immunity extends to commercial activities off-reservation. Additionally, in McGirt v. Oklahoma, 140 S. Ct. 2452 (2020), the Court reaffirmed the continued force of treaty rights absent explicit congressional abrogation. This license invokes these principles to secure maximum protection for the intellectual property rights herein.
-   
-   The superior force of these treaty-protected rights means that:
-   a) This license invokes protections that exceed standard copyright law and supersede conflicting state laws
-   b) The legal force of this revocation right cannot be diminished through contract law principles or state court interpretations
-   c) Courts are constitutionally required to interpret these rights liberally in favor of tribal interests, per established canons of construction for Indian treaties
-   d) Any dispute regarding these rights must be analyzed within the framework of federal Indian law, not merely copyright or contract law
-   e) The Indian canons of construction require that any ambiguity in this license must be resolved in favor of tribal interests
-   f) Treaty rights are recognized as having a superior force to other forms of law in accordance with the Supremacy Clause
-   
-   Upon notification of revocation, all parties must immediately comply by:
-   a) Ceasing all use of the software
-   b) Removing and deleting all copies, including but not limited to source code, compiled versions, and derivatives
-   c) Providing written confirmation of compliance within 7 days
-   d) Acknowledging the superior force of tribal sovereignty rights in this specific context
-   e) Surrendering any derivative materials to the copyright holder if requested
+1.2  "Traditional Knowledge" (TK) means knowledge, know-how, skills,
+     innovations, practices, and learning systems developed, sustained, and
+     transmitted within the Anishinaabe (Ottawa/Chippewa/Odawa) communities
+     described in the Preamble, including ecological, fisheries, navigational,
+     linguistic, medicinal, and spiritual knowledge embodied in or informing
+     the Work. This definition follows the usage of the WIPO Intergovernmental
+     Committee on Intellectual Property and Genetic Resources, Traditional
+     Knowledge and Folklore (IGC).
 
-4. PROHIBITED USES
-   This software may not be used by any individual, entity, corporation, or artificial intelligence system for:
-   a) Training, fine-tuning, or building artificial intelligence models
-   b) Commercial applications without explicit written permission
-   c) Any use that misappropriates, misrepresents, or distorts Indigenous cultural expression
-   d) Any use that violates the copyright holder's moral rights
-   e) Any application that could harm or exploit Indigenous communities or knowledge systems
-   f) Any unauthorized reproduction or distribution that does not respect the cultural protocols embedded in this license
-   g) Military applications or weapons development
-   h) Any use that promotes cultural appropriation or stereotyping of Indigenous peoples
-   i) Data mining or extraction without prior informed consent
-   j) Any use contrary to the traditional values of the Grand Traverse Band of Ottawa and Chippewa Indians
-   k) Any use in contexts that do not respect the spiritual or cultural significance of embedded knowledge elements
+1.3  "Traditional Cultural Expression" (TCE) means any form in which
+     Traditional Knowledge and culture are expressed, including music, dance,
+     design, oral literature, ceremony, nomenclature, and visual art,
+     consistent with WIPO IGC usage.
 
-5. PERMISSIBLE USES AND ACCESS PROTOCOLS
-   Permissible uses of this software must respect the following protocols and conditions:
-   a) Educational use is permitted provided that proper attribution is given and cultural context is preserved
-   b) Research use is permitted provided that research findings are shared with the copyright holder
-   c) Non-commercial community development is permitted with prior notification
-   d) Use that promotes accurate cultural understanding and representation is encouraged
-   e) All permissible uses must adhere to the cultural protocols established by the Grand Traverse Band of Ottawa and Chippewa Indians
-   f) Users must employ culturally appropriate methods of engagement with the software
+1.4  "Associated Traditional Knowledge" has the meaning given in the WIPO
+     Treaty on Intellectual Property, Genetic Resources and Associated
+     Traditional Knowledge (adopted May 24, 2024): Traditional Knowledge
+     associated with genetic resources used or claimed in an invention.
 
-6. PRIOR INFORMED CONSENT REQUIREMENT
-   Any use beyond the scope of Section 5 requires prior informed consent from the copyright holder. Such consent must be:
-   a) Obtained in writing before any such use begins
-   b) Based on full disclosure of intended purposes, methods, and outcomes
-   c) Subject to revocation at any time in accordance with Section 3
-   d) Not transferable to any third party without explicit permission
-   e) Contingent upon regular reporting of usage and outcomes to the copyright holder
+1.5  "Cultural Patrimony" has the meaning given in the Native American
+     Graves Protection and Repatriation Act (NAGPRA), 25 U.S.C. § 3001(3):
+     objects having ongoing historical, traditional, or cultural importance
+     central to the community itself, rather than property owned by an
+     individual, which cannot therefore be alienated, appropriated, or
+     conveyed by any individual.
 
-7. COMPENSATION AND FINANCIAL RECOVERY FOR UNAUTHORIZED USE
-   Any individual, entity, corporation, business, or artificial intelligence system that uses, distributes, reproduces, modifies, commercializes, or otherwise derives benefit from this software without proper authorization shall be subject to comprehensive financial restitution provisions as follows:
+1.6  "Derivative Data" means any data, dataset, corpus, embedding, feature
+     representation, statistical model, annotation set, or index produced in
+     whole or in part from the Work or from output of the Work.
 
-   7.1 MANDATORY DISGORGEMENT OF BENEFITS
-   Any party that derives financial or non-financial benefits from unauthorized use of this software shall be required to fully disgorge and transfer to the copyright holder:
-   a) All direct revenue and profits derived from the unauthorized use
-   b) All indirect revenue and profits reasonably attributable to the unauthorized use
-   c) Fair market value of any non-monetary benefits obtained
-   d) Interest accrued on all financial gains at a rate of 10% per annum compounded monthly from the date of first unauthorized use
-   e) The greater of actual or statutory damages as determined by the copyright holder or tribal court
-   f) Any enhanced value added to the user's products, services, or business attributable to the unauthorized use
+1.7  "Model" means any machine-learning model, neural network, large
+     language model, classifier, or similar computational system, including
+     its weights and parameters, trained or fine-tuned in whole or in part
+     on the Work or on Derivative Data.
 
-   7.2 COMPENSATION CALCULATION AND ASSESSMENT
-   The calculation of appropriate compensation shall be determined by the copyright holder or designated tribal authorities, and may include:
-   a) A royalty rate of no less than 20% of gross revenue derived from unauthorized use
-   b) Minimum statutory damages of $150,000 per instance of willful infringement
-   c) Traditional forms of restitution as determined according to the customs and practices of the Grand Traverse Band of Ottawa and Chippewa Indians
-   d) Compensation for cultural and spiritual harm caused by unauthorized use, which cannot be adequately measured in purely monetary terms
-   e) Compensation for diminishment of the unique value of the copyright holder's intellectual property
-   f) Predetermined liquidated damages of $10,000 per day for the duration of unauthorized use
+1.8  "Community" means, collectively: (i) the Grand Traverse Band of Ottawa
+     and Chippewa Indians and its members; (ii) the families of the Beaver
+     Island Band of Ottawa and Chippewa and their descendants, whether
+     enrolled as members of the Grand Traverse Band, of the Little Traverse
+     Bay Bands of Odawa Indians, or of any other federally recognized tribe,
+     and regardless of federal acknowledgment status of the Beaver Island
+     Band itself; and (iii) the Little Traverse Bay Bands of Odawa Indians
+     and its members, but solely with respect to Community Benefit uses
+     described in Section 11 and solely to the extent such use does not
+     facilitate the alienation of Cultural Patrimony.
 
-   7.3 ADDITIONAL FINANCIAL REMEDIES
-   In addition to disgorgement of benefits, unauthorized users shall be liable for:
-   a) All legal and professional fees incurred in pursuing recovery
-   b) Costs of cultural restoration and rehabilitation where applicable
-   c) Costs of publicly correcting any misrepresentations made about the software or its origins
-   d) Costs associated with notifying affected parties of the unauthorized use
-   e) Administrative fees associated with the assessment and collection of compensation
+1.9  "Community Protocols" means the laws, customs, and traditions
+     governing access to, use of, and care for Traditional Knowledge,
+     Cultural Expressions, and Cultural Patrimony, including protocols of the
+     GTB and the protocols of Beaver Island Band families, as set out or
+     incorporated in Annex B.
 
-   7.4 PROPERTY TRANSFER PROVISIONS
-   In cases of willful, flagrant, or continued unauthorized use after notification, the copyright holder may require:
-   a) Transfer of intellectual property rights in derivative works or applications
-   b) Transfer of domain names, user accounts, or other digital assets associated with the unauthorized use
-   c) Transfer of equipment used in the unauthorized exploitation of the software
-   d) Assignment of relevant patents, trademarks, or other intellectual property rights obtained in connection with the unauthorized use
+1.10 "Consensual Relationship" means the consensual relationship between
+     the Licensor (a tribal member) and each Licensee formed by the
+     Licensee's use of the Work under this License, being a "consensual
+     relationship... through commercial dealing, contracts, leases, or other
+     arrangements" within the meaning of Montana v. United States, 450 U.S.
+     544, 565 (1981).
 
-   7.5 JURISDICTIONAL AND PROCEDURAL CONSIDERATIONS
-   a) The Grand Traverse Band Tribal Court shall have primary jurisdiction to determine and enforce appropriate compensation
-   b) These compensation provisions shall be enforceable in tribal, federal, and state courts
-   c) The copyright holder may pursue compensation through traditional dispute resolution mechanisms of the Grand Traverse Band of Ottawa and Chippewa Indians
-   d) Unauthorized users expressly consent to the jurisdiction of tribal courts for resolving disputes regarding compensation
-   e) The copyright holder is entitled to seek enforcement and recognition of tribal court judgments in federal and state courts under principles of comity and full faith and credit
-   f) Non-monetary forms of restitution may be required in accordance with tribal customs and traditions
+1.11 "Treaty-Protected Interests" means the rights reserved by the Ottawa
+     and Chippewa nations in the Treaty of Washington (1836), 7 Stat. 491 —
+     including the usufructuary rights of hunting, fishing, and gathering and
+     the "usual privileges of occupancy" reserved in its Article Thirteenth —
+     and in the Treaty of Detroit (1855), 11 Stat. 621, together with
+     aboriginal and inherent rights never ceded.
 
-   7.6 WAIVER OF DEFENSES
-   By using this software, users expressly waive defenses related to:
-   a) Lack of knowledge of these compensation provisions
-   b) Challenges to tribal court jurisdiction
-   c) Statute of limitations or laches defenses
-   d) Challenges to the reasonableness of the compensation amounts specified herein
-   e) Claims of sovereign immunity by governmental entities
+1.12 "Licensee" means any individual, corporation, partnership, limited
+     liability company, government agency, university, research institution,
+     artificial-intelligence system operator, or other entity that uses,
+     reproduces, modifies, distributes, or prepares derivative works of the
+     Work, in whole or in part, in any medium.
 
-8. ALTERNATIVE TRIBAL COURT SELECTION AND LIMITLESS TIMEFRAME
-   8.1 SELECTION OF ALTERNATIVE TRIBAL FORUMS
-   If, for any reason, the Grand Traverse Band of Ottawa and Chippewa Indians Tribal Court is unable, unwilling, or without jurisdiction to address issues arising under this license, or if the copyright holder determines that another tribal forum would be more appropriate for resolving any dispute:
-   a) The copyright holder retains the absolute and exclusive right to select any other federally recognized tribal court or traditional dispute resolution forum of any federally recognized tribe within the United States as an alternative forum for adjudication, without limitation
-   b) This selection may be made at any time, including after proceedings have begun in another forum
-   c) The copyright holder's selection of an alternative tribal forum shall be binding on all users of this software
-   d) Users expressly consent to the jurisdiction of any tribal court or traditional dispute resolution forum selected by the copyright holder
-   e) Users expressly waive any challenges to the jurisdiction, authority, or procedures of the selected tribal forum
-   f) The copyright holder may select tribal forums with cultural, historical, or traditional connections to the Ottawa and Chippewa Nations, but is not limited to such forums
-   g) The copyright holder may consider, but is not bound by, factors such as a tribal court's experience with intellectual property matters, traditional knowledge protection, cultural expertise, or proximity to the parties
-   
-   8.2 UNLIMITED TIMEFRAME FOR DECISION AND ACTION
-   The copyright holder shall have unlimited time to:
-   a) Discover violations of this license
-   b) Select an appropriate tribal forum for resolution
-   c) Initiate proceedings in any chosen forum
-   d) Transfer proceedings between tribal forums
-   e) Pursue remedies in multiple tribal forums sequentially or simultaneously
-   f) Determine the nature and extent of remedies to be sought
-   
-   8.3 COMPREHENSIVE COST RECOVERY FOR FORUM SELECTION
-   All costs incurred by the copyright holder related to the selection, assessment, and utilization of alternative tribal forums shall be borne by the user who has violated this license, including but not limited to:
-   a) All travel, lodging, and subsistence expenses incurred by the copyright holder, their legal representatives, cultural advisors, and witnesses in visiting, assessing, or appearing before potential or selected tribal forums
-   b) Costs of researching and evaluating potential tribal forums
-   c) Administrative and filing fees in all considered or selected tribal forums
-   d) Translation and interpretation costs
-   e) Costs of cultural protocols, offerings, or ceremonies required when engaging with tribal justice systems
-   f) Consultation fees for tribal legal experts, cultural advisors, and knowledge keepers
-   g) Lost income, opportunity costs, and compensation for time spent by the copyright holder in the forum selection and dispute resolution process
-   h) Communication and coordination costs between multiple tribal forums
-   i) Costs of enforcing or domesticating tribal court judgments in other jurisdictions
-   j) Any other reasonable expenses incurred in the process of forum selection and utilization
-   
-   8.4 ENFORCEABILITY OF ALTERNATIVE TRIBAL COURT JUDGMENTS
-   Any judgment, order, or decision rendered by an alternative tribal forum selected by the copyright holder shall be:
-   a) Binding on all users of this software
-   b) Entitled to recognition and enforcement in federal and state courts under principles of comity, as articulated in cases such as Wilson v. Marchington, 127 F.3d 805 (9th Cir. 1997), and Michigan v. Bay Mills Indian Community, 572 U.S. 782 (2014)
-   c) Presumptively valid and not subject to collateral attack in other courts
-   d) Enforceable through traditional tribal methods, federal court proceedings, or state court proceedings, at the copyright holder's discretion
-   e) Given full faith and credit where applicable under 28 U.S.C. § 1738
-   
-   8.5 WAIVER OF FORUM NON CONVENIENS AND SIMILAR DEFENSES
-   Users expressly waive any objection to the copyright holder's selection of an alternative tribal forum based on:
-   a) Geographic distance or inconvenience
-   b) Unfamiliarity with the selected forum's laws, customs, or procedures
-   c) Claims of forum non conveniens
-   d) Language barriers or cultural differences
-   e) Financial hardship in appearing before the selected forum
-   f) Preference for state or federal forums
-   g) Prior commencement of proceedings in another forum
+============================================================================
+2. GRANT OF RIGHTS AND LICENSE CONDITIONS
+============================================================================
 
-9. JURISDICTION AND GOVERNING LAW
-   This license shall be governed by and construed in accordance with:
-   a) The Constitution and laws of the Grand Traverse Band of Ottawa and Chippewa Indians
-   b) Federal Indian law of the United States
-   c) The laws of the State of Michigan, to the extent they do not conflict with tribal sovereignty
-   d) International declarations of Indigenous rights including UNDRIP and the American Declaration on the Rights of Indigenous Peoples
-   e) Principles established in the Native American Graves Protection and Repatriation Act (NAGPRA) and the Indian Arts and Crafts Act, which recognize the special status of Native American cultural property
-   f) The laws, customs, and traditions of any tribal forum selected under Section 8
+2.1  LIMITED GRANT. Subject to full and continuing compliance with every
+     condition of this License, the Licensor grants each Licensee a
+     non-exclusive, non-transferable, non-sublicensable, revocable license to
+     use, reproduce, and modify the Work solely for the Permissible Uses
+     described in Section 11. No other rights are granted. All rights not
+     expressly granted are reserved to the Licensor and to the Community.
 
-   Any dispute arising under this license may, at the copyright holder's discretion, be subject to the jurisdiction of the Grand Traverse Band Tribal Court, any alternative tribal forum selected under Section 8, or in federal court with jurisdiction over federal Indian law matters, as established under 28 U.S.C. § 1331 and § 1362.
+2.2  CONDITIONS, NOT MERE COVENANTS. Every requirement in this License —
+     including attribution, CMI preservation, TK Label observance, Indigenous
+     Data Sovereignty compliance, the prohibitions in Section 10, the consent
+     requirements of Section 9, and the dispute-resolution consents in
+     Section 14 — is a CONDITION of the license grant and limits the scope
+     of the permissions granted. A Licensee who fails to comply with any
+     condition acts outside the scope of the license and infringes the
+     Licensor's copyright, exposing the Licensee to all remedies under the
+     Copyright Act, including preliminary and permanent injunctive relief,
+     actual damages and profits (17 U.S.C. § 504(b)), statutory damages
+     (17 U.S.C. § 504(c)), and costs and attorney's fees (17 U.S.C. § 505).
+     See Jacobsen v. Katzer, 535 F.3d 1373 (Fed. Cir. 2008) (license
+     conditions enforceable under copyright law; non-monetary collaborative
+     benefits constitute valid consideration).
 
-10. REMEDIES AND ENFORCEMENT
-    Violations of this license may result in:
-    a) Injunctive relief in tribal, federal, or state courts
-    b) Monetary damages including traditional forms of restitution
-    c) Enforcement under tribal law, including remedies established by the Grand Traverse Band Tribal Court or any alternative tribal forum selected under Section 8
-    d) Application of both civil and criminal penalties where applicable
-    e) Spiritual and cultural remediation as determined appropriate by tribal authorities
-    f) Public disclosure of violations
+2.3  ACCEPTANCE. This License is accepted, and the Consensual Relationship
+     is formed, by any act of using, reproducing, modifying, distributing, or
+     preparing a derivative work of the Work, or by clicking or otherwise
+     indicating assent where this License is presented. If the Licensee does
+     not accept, the Licensee has no permission and no rights in the Work.
 
-11. DISCLAIMER OF WARRANTIES AND LIMITATION OF LIABILITY
-    This software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
+2.4  NO IMPLIED LICENSE TO THIRD PARTIES. Receipt of the Work through an
+     authorized distribution carries this License with it. No Licensee may
+     strip, replace, or obscure this License. Downstream recipients hold only
+     the rights granted by this License, obtained directly from the Licensor.
 
-12. NO WAIVER OF SOVEREIGNTY
-    Nothing in this license shall be construed as a waiver of sovereign immunity or tribal rights. The copyright holder reserves all rights not expressly granted herein, including those held under indigenous customary law and tribal governance structures. The tribal sovereign immunity of the Grand Traverse Band of Ottawa and Chippewa Indians extends to the copyright holder as a tribal member asserting rights connected to tribal sovereignty.
+2.5  NO PATENT AGGRESSION / DEFENSIVE SUSPENSION. No Licensee grants or
+     receives any patent license except an implied, royalty-free license to
+     practice the Licensor's patent claims, if any, strictly as embodied in
+     the Work and only as needed for Permissible Uses. If a Licensee or its
+     affiliate initiates or materially supports a patent assertion against
+     the Work, against the Licensor, or against any Community member with
+     respect to their use of the Work, all of that Licensee's rights under
+     this License terminate automatically and immediately.
 
-13. SEVERABILITY AND INTERPRETATION
-    If any provision of this license is held to be unenforceable or invalid, such provision shall be modified to the minimum extent necessary to make it valid and enforceable. If modification is not possible, the provision shall be severed, and the remaining provisions shall remain in full force and effect. Per established canons of construction in federal Indian law, any ambiguity in this license shall be resolved in favor of tribal rights and sovereignty.
+============================================================================
+3. CITATION, ATTRIBUTION, AND COPYRIGHT MANAGEMENT INFORMATION
+============================================================================
 
-14. AMENDMENTS AND MODIFICATIONS
-    The copyright holder reserves the right to amend or modify this license at any time. Continued use of the software after any such changes constitutes acceptance of the modified terms. It is the responsibility of the user to regularly check for updates to this license.
+3.1  REQUIRED CITATION. Any use, reproduction, distribution, modification,
+     or derivative work of the Work must prominently include the following
+     citation and attribution:
 
-Any use of this software constitutes acceptance of these terms. 
+       @misc{<|repo_title|><|current_year|>,
+         author = {ᓂᐲᔥ Nbiish-Justin Kenwabikise ᑭᓇᐙᐱᑭᓯ},
+         title = {<|repo_title|>},
+         year = {<|current_year|>},
+         publisher = {GitHub},
+         journal = {GitHub repository},
+         howpublished = {\url{https://github.com/nbiish/<|repo_title|>}},
+         note = {Created by a GTB member and Beaver Island Band descendant;
+                 protected under tribal sovereignty, treaty rights
+                 (7 Stat. 491; 11 Stat. 621), and Traditional
+                 Knowledge protocols}
+       }
+
+3.2  VISIBLE ACKNOWLEDGMENT. Licensees must visibly acknowledge the
+     Indigenous authorship and tribal affiliation, including:
+     (a)  attribution on all user-facing interfaces where the Work is used;
+     (b)  acknowledgment in technical documentation, including API and model
+          documentation and model/dataset cards;
+     (c)  citation in any publication, presentation, or derivative work; and
+     (d)  recognition that the Work is subject to Community Protocols.
+
+3.3  COPYRIGHT MANAGEMENT INFORMATION. The license identifier, copyright
+     header, author statement, TK Label notices, and the source-file header
+     block set out in Annex C constitute "copyright management information"
+     (CMI) within the meaning of 17 U.S.C. § 1202(c), because they identify
+     the work, its author, its copyright owner, and the terms and conditions
+     for use of the work, and are conveyed in connection with copies of the
+     Work. Removal or alteration of CMI, or distribution of the Work knowing
+     CMI has been removed or altered, violates 17 U.S.C. § 1202(b) and is a
+     condition-breach under Section 2.2. The Licensor notes that courts
+     currently require a showing of knowledge and reasonable grounds to know
+     that removal will facilitate infringement (e.g., Raw Story Media v.
+     OpenAI (S.D.N.Y. 2024)); Licensees are therefore placed on actual notice
+     by this Section that removal or alteration of CMI facilitates
+     infringement of this License.
+
+3.4  NO FALSE DESIGNATION. No Licensee may use the Work in any manner
+     likely to cause confusion as to the Work's Indigenous origin, tribal
+     affiliation, or sponsorship, including in commerce. This condition
+     supports, and does not limit, remedies under Section 43(a) of the
+     Lanham Act, 15 U.S.C. § 1125(a).
+
+3.5  REGISTRATION NOTICE. The Licensor maintains or will maintain timely
+     copyright registrations of the Work to preserve eligibility for
+     statutory damages and attorney's fees under 17 U.S.C. §§ 411(a) and 412.
+     Licensees should assume all components of the Work are registered.
+
+============================================================================
+4. TRADITIONAL KNOWLEDGE (TK) PROTECTION AND LABELING
+============================================================================
+
+4.1  ASSERTION OF DUAL RIGHTS. The Work embodies Traditional Knowledge and
+     Cultural Expressions. The Licensor asserts both western intellectual
+     property rights and Indigenous rights over the Work, and nothing in this
+     License waives, exhausts, or diminishes the latter.
+
+4.2  TK LABELS. This Work carries the following Traditional Knowledge
+     Labels, following the Local Contexts taxonomy (Provenance, Protocol, and
+     Permission Labels; see localcontexts.org):
+
+     (a)  TK Attribution (TK A) — community-specific rules govern how
+          attribution must be given to the creator, the GTB, and the Beaver
+          Island Band families;
+     (b)  TK Culturally Sensitive (TK CS) — the Work contains content
+          requiring special cultural protocols for access, use, and handling;
+     (c)  TK Community Use Only (TK CO) — specified material is subject to
+          community protocols restricting use by those outside the Community;
+     (d)  TK Non-Commercial (TK NC) — the Work must not be used for
+          commercial purposes without explicit prior written permission;
+     (e)  TK Verified (TK V) — the Work has been created by a verified
+          member of the specified Indigenous community;
+     (f)  TK Multiple Communities (TK MC) — responsibilities for the Work are
+          shared across the GTB and Beaver Island Band families, whether
+          enrolled in GTB, LTBB, or elsewhere; and
+     (g)  TK Family (TK F) — specified elements of the Work embody knowledge
+          stewarded by particular Beaver Island Band families, whose
+          authorization is required in addition to the Licensor's for any use
+          of those elements.
+
+4.3  LABELS AS CONDITIONS. Observance of the TK Labels, and of any updated
+     Label text published by the Licensor on a Local Contexts Hub project
+     page associated with the Work, is a condition of this License. Labels
+     are metadata of governance, not merely informational tags.
+
+4.4  INDIGENOUS DATA GOVERNANCE STANDARDS. All handling of the Work and of
+     Derivative Data must comply with the CARE Principles for Indigenous Data
+     Governance — Collective Benefit, Authority to Control, Responsibility,
+     and Ethics (Carroll et al., Data Science Journal 19:43 (2020), DOI
+     10.5334/dsj-2020-043) — taken together with, and never displaced by,
+     FAIR data principles. Provenance of the Work and of Derivative Data
+     must be documented consistent with IEEE 2890-2025 (IEEE Recommended
+     Practice for Provenance of Indigenous Peoples' Data).
+
+4.5  NO WAIVER OF INTERNATIONALLY RECOGNIZED RIGHTS. No rights are waived
+     under UNDRIP, including without limitation: Article 11 (redress for
+     cultural and intellectual property taken without free, prior and
+     informed consent); Article 31 (the right to maintain, control, protect,
+     and develop intellectual property over cultural heritage, Traditional
+     Knowledge, and Cultural Expressions); Article 32 (free, prior and
+     informed consent for projects affecting Indigenous resources); Article
+     37 (treaty rights); and Article 40 (access to fair procedures and just
+     remedies). Annex A states the legal status of each instrument; this
+     License claims each instrument only to the extent of that status.
+
+4.6  FAMILY-HELD KNOWLEDGE. Elements of the Work that derive from knowledge
+     stewarded by specific Beaver Island Band families ("Family-held
+     Knowledge") are subject to family-level protocols under TK F. No
+     Licensee — expressly including any person or organization claiming
+     Indigenous authority, affiliation, or adoption — may commercialize,
+     teach, certify others in, publish curricular or spiritual material based
+     on, or build derivative products from Family-held Knowledge, absent
+     documented FPIC (Section 9) from the stewarding family or families as
+     identified through the channels in Annex B. Misappropriated teachings,
+     ceremonies, or knowledge-hybrids incorporating Family-held Knowledge do
+     not become "free" by re-publication under another name or persona; the
+     Licensor's and stewarding families' rights attach to the knowledge,
+     not to any usurper's branding of it.
+
+============================================================================
+5. INDIGENOUS DATA SOVEREIGNTY AND ARTIFICIAL INTELLIGENCE RESTRICTIONS
+============================================================================
+
+5.1  NO AI TRAINING. As a condition of this License, the Work, Derivative
+     Data, and outputs of the Work may NOT be used to train, fine-tune,
+     align, evaluate, augment, or distill any Model; may not be incorporated
+     into any training corpus, fine-tuning set, reinforcement-learning
+     dataset, retrieval-augmented-generation index, or embedding store; and
+     may not be supplied as input to AI systems for the purpose of producing
+     a substitute or derivative of the Work. This prohibition is a license
+     condition under Section 2.2, and its violation acts outside the scope of
+     the license (Jacobsen v. Katzer, supra).
+
+5.2  TEXT AND DATA MINING RESERVATION. All rights to perform text and data
+     mining (TDM) of the Work, and all rights under any statutory TDM
+     exception, are expressly RESERVED, including under Article 4(3) of
+     Directive (EU) 2019/790 for Licensees subject to EU law. Machine-readable
+     reservations (robots.txt, ai.txt, or equivalent declarations) accompany
+     the Work and form part of this condition.
+
+5.3  DERIVATIVE MODELS AND DATA ARE WITHIN THE LICENSE. Any Model, system
+     output, or Derivative Data produced in violation of Section 5.1 is
+     asserted by the Licensor to be an infringing derivative work or
+     infringing copy to the maximum extent permitted by law, and remains
+     irrevocably subject to this License, including Sections 3, 4, and 12.
+     The Licensor's position follows the treatment of training-data
+     conditions as scope-of-license limits and the rejection of blanket
+     fair-use defenses where the use substitutes for the licensed work
+     (cf. Thomson Reuters Enterprise Centre GmbH v. Ross Intelligence Inc.,
+     No. 20-cv-613 (D. Del. Feb. 11, 2025) (non-generative AI; fair use
+     rejected); appeal pending as of this License's issuance). The Licensor
+     acknowledges that the law of generative-AI fair use remains unsettled
+     as of 2026; this Section is drafted to protect the Licensor's position
+     under either resolution, because it operates as a condition of the
+     license and not solely as a prediction of fair-use outcomes.
+
+5.4  PROVENANCE AND DISCLOSURE CONDITION. Any Licensee that applies for a
+     patent or other registered right claiming an invention or design based
+     on or derived from the Work or from Associated Traditional Knowledge
+     must disclose the Work, the Licensor, and the Community of origin in the
+     application. This condition voluntarily adopts the disclosure principle
+     of Article 3 of the WIPO Treaty on Intellectual Property, Genetic
+     Resources and Associated Traditional Knowledge (adopted May 24, 2024),
+     as a matter of contract, regardless of United States non-party status.
+
+5.5  NO SURVEILLANCE OR BIOMETRIC EXPLOITATION. The Work may not be used,
+     directly or indirectly, for surveillance of members of the Community;
+     for biometric or emotion-recognition processing of images or voices of
+     Community members or of cultural performances; or for building identity
+     systems profiling Indigenous persons or communities.
+
+5.6  DATA DELETION AND ATTESTATION. Upon termination or revocation, every
+     Licensee must delete all copies of the Work and Derivative Data
+     (including from backups within 90 days), quarantine any Models trained
+     in violation, and provide a written attestation of deletion signed by a
+     responsible officer within 14 days of demand.
+
+============================================================================
+6. RESERVED SOVEREIGN RIGHTS AND TREATY FOUNDATIONS
+============================================================================
+
+6.1  RESERVED RIGHTS DOCTRINE. The Ottawa and Chippewa nations reserved all
+     rights not expressly ceded in the Treaty of Washington (1836), 7 Stat.
+     491, and the Treaty of Detroit (1855), 11 Stat. 621. Rights not
+     expressly surrendered are retained: this is the reserved rights doctrine
+     recognized in United States v. Winans, 198 U.S. 371 (1905), Winters v.
+     United States, 207 U.S. 564 (1908), and reaffirmed in Minnesota v. Mille
+     Lacs Band of Chippewa Indians, 526 U.S. 172 (1999) (treaty usufructuary
+     rights survive statehood, removal pressure, and the passage of time
+     absent express congressional abrogation). Treaty rights are federal law
+     and prevail over conflicting state law under the Supremacy Clause (U.S.
+     Const. art. VI, cl. 2; McGirt v. Oklahoma, 140 S. Ct. 2452 (2020)).
+
+6.2  WHAT THE SUPREMACY CLAUSE DOES AND DOES NOT DO HERE. The Supremacy
+     Clause makes the Treaties supreme over contrary state law; it does not,
+     by itself, make a private license superior to other private agreements.
+     This License therefore claims its coercive force from honest sources:
+     (a)  federal copyright law and the condition doctrine (Section 2.2);
+     (b)  the Licensee's consent, which also creates a Consensual
+          Relationship supporting tribal regulatory and adjudicatory
+          authority under Montana v. United States, 450 U.S. at 565;
+     (c)  federal statutes protecting Indigenous cultural property
+          (NAGPRA; the Indian Arts and Crafts Act); and
+     (d)  the treaty-protected status of the underlying cultural,
+          usufructuary, and heritage rights that the Work embodies and that
+          this License exists to defend.
+     Assertions of treaty supremacy in this License concern the underlying
+     rights, not an independent claim that this contract outranks other
+     contracts.
+
+6.3  INDIAN CANONS OF CONSTRUCTION. To the maximum extent a tribunal
+     permits, any ambiguity in this License concerning the scope of reserved
+     treaty rights or the interpretation of the Treaties shall be construed
+     in favor of the tribal interest, per the Indian canons of construction
+     (Montana v. Blackfeet Tribe of Indians, 471 U.S. 759 (1985); Bryan v.
+     Itasca County, 426 U.S. 373 (1976); County of Oneida v. Oneida Indian
+     Nation, 470 U.S. 226 (1985)).
+
+6.4  SURVIVING TREATY FISHERY JURISPRUDENCE. The continuing vitality of the
+     1836 Treaty rights is affirmed by the Consent Decree entered August 24,
+     2023, in United States v. Michigan, No. 2:73-cv-26 (W.D. Mich.) (Maloney,
+     J.), governing treaty fishing in the waters ceded in 1836 through August
+     2047; affirmed by the U.S. Court of Appeals for the Sixth Circuit in
+     March 2025; certiorari denied January 2026. The Grand Traverse Band is a
+     party to that decree and a member of the Chippewa Ottawa Resource
+     Authority (CORA). These instruments confirm — as current adjudicated
+     fact, not mere aspiration — that the Treaty-Protected Interests are
+     alive, federally enforced, and co-managed by the Licensor's Nation.
+
+============================================================================
+7. GREAT LAKES TREATY WATERS AND MARITIME DIMENSION
+============================================================================
+
+7.1  TREATY WATERS. The waters of Lakes Michigan, Huron, and Superior ceded
+     in the Treaty of Washington (1836) are subject to retained tribal
+     usufructuary and governance interests recognized in United States v.
+     Michigan and its 1985, 2000, and 2023 Consent Decrees, implemented
+     through CORA co-management. To the extent the Work embodies, describes,
+     or depends upon fisheries, navigation, ecological, geographical, or
+     place-name knowledge of the Beaver Island archipelago or other 1836
+     ceded waters, that knowledge is Treaty-adjacent Traditional Knowledge
+     within Section 4 and shall not be used in ways that materially harm the
+     treaty-managed fishery, its habitats, or CORA co-management.
+
+7.2  RESERVED SUBMERGED LANDS AND WATER RIGHTS. Nothing in this License
+     cedes, diminishes, or waives (a) rights of tribes in the beds of
+     navigable waters where those beds were reserved for a tribe (Montana v.
+     United States, 450 U.S. 544 (1981) (recognizing the rule while applying
+     its exception); Choctaw Nation v. Oklahoma, 397 U.S. 620 (1970); United
+     States v. Holt State Bank, 270 U.S. 49 (1926)); or (b) federally
+     reserved water rights as recognized in Winters v. United States, 207
+     U.S. 564 (1908). These doctrines are invoked to show that Indigenous
+     governance of water, including the water-column context of the Work and
+     its data, follows the same reserved-rights logic as this License's
+     governance of knowledge.
+
+7.3  MARITIME AND ADMIRALTY PRESERVATION. Exclusive federal admiralty
+     jurisdiction under 28 U.S.C. § 1333 cannot be created or removed by
+     private license, and this License does neither. Instead: (a) disputes
+     arising under this License that touch commercial activity on
+     Treaty-ceded waters remain within the consensual jurisdiction framework
+     of Section 14 as to the Licensee's obligations; (b) the Licensee is
+     barred from using the Work aboard vessels or in maritime operations that
+     materially interfere with exercise of Treaty-Protected Interests,
+     including tribal commercial and subsistence fishing under the 2023
+     Consent Decree; and (c) the Licensor reserves all rights and remedies
+     available in admiralty, in federal question, or in tribal proceedings,
+     without election.
+
+7.4  CUSTOMARY INTERNATIONAL LAW OF THE SEA. Customary international law is
+     part of United States law (The Paquete Habana, 175 U.S. 677, 700
+     (1900)). The United States is not a party to the United Nations
+     Convention on the Law of the Sea (UNCLOS), but accepts its navigational
+     and resource-related provisions as reflective of customary international
+     law (United States Oceans Policy Statement, 1983). This License invokes
+     that customary framework honestly: as interpretive backdrop for the
+     Community's enduring relationship to the Great Lakes waters, and as a
+     rule of construction for cross-border Licensees — not as a claim that
+     UNCLOS binds the United States as a treaty.
+
+7.5  PRECEDENT OF MARINE TREATY RIGHTS. Courts have repeatedly enforced
+     express treaty reservations of marine resource rights for Pacific
+     Northwest tribes (e.g., the Treaty of Neah Bay (1855), 12 Stat. 939,
+     reserving whaling and sealing rights; the Makah whaling litigation,
+     Anderson v. Evans (9th Cir. 2004); the Boldt decision line under the
+     Stevens treaties). The 1836 Treaty fishery now stands in the same modern
+     enforcement posture through the 2023 Consent Decree. This Section
+     records that lineage so that no reader mistakes the maritime dimension
+     of this License for symbolism alone.
+
+7.6  BOUNDARY WATERS. The Boundary Waters Treaty of 1909 (36 Stat. 2448)
+     governs navigation and uses of US-Canada boundary waters and preserves
+     pre-existing usage rights of the parties' nationals. The Licensee shall
+     not use the Work to undermine Indigenous navigation, fishing, or
+     stewardship rights in boundary and connecting waters of the Great Lakes.
+
+============================================================================
+8. CULTURAL PATRIMONY, BURIAL PROTECTIONS, AND ANTI-ALIENATION
+============================================================================
+
+8.1  NON-ALIENATION OF CULTURAL PATRIMONY. No Licensee shall use the Work,
+     its data, or its outputs to facilitate, document for sale, market,
+     broker, appraise for conveyance, or otherwise support the sale,
+     transfer, or alienation of human remains, funerary objects, sacred
+     objects, burial sites (including any portion of the Beaver Island
+     archipelago burial landscape), or objects of Cultural Patrimony, each as
+     defined in NAGPRA, 25 U.S.C. §§ 3001-3002. Under NAGPRA, Cultural
+     Patrimony is inalienable by any individual; no transfer can extinguish
+     the Community's interest.
+
+8.2  RIGHT OF SEPULCHER AND NAGPRA PRINCIPLES. The Work shall not be used
+     to disturb, commodify, decorate, redecorate, "restore," tour, or
+     display the resting places of the ancestors or their associated
+     structures, including spirit houses erected over burials. The
+     common-law right of sepulcher and the principles of NAGPRA —
+     including its recognition that burial and funerary materials carry
+     continuing communal rights (25 U.S.C. §§ 3001-3013) — are conditions of
+     any Licensee's use of the Work in any museum, educational, geospatial,
+     real-estate, or heritage application.
+
+8.3  DISCOVERY PROTOCOL. A Licensee who, in the course of using the Work,
+     encounters or infers the apparent location of human remains, funerary
+     objects, or undocumented sites of cultural significance within the
+     Beaver Island archipelago or other Treaty-ceded territory must treat
+     that information as restricted Derivative Data: no publication, no
+     commercial use, prompt notice to the Licensor, and referral to the
+     appropriate tribal authorities.
+
+8.4  INDIAN ARTS AND CRAFTS ACT PRESERVATION. Where the Work or its
+     Cultural Expressions are offered in commerce as authentic products of an
+     Indigenous creator, the Indian Arts and Crafts Act applies by its own
+     terms: civil actions authorize recovery of treble damages or statutory
+     damages of not less than $1,000 for each day the violation continues,
+     plus costs and attorney's fees (25 U.S.C. § 305e(b)); counterfeiting the
+     Government trademark of the Indian Arts and Crafts Board is a federal
+     crime (18 U.S.C. § 1158), as is misrepresentation of Indian-produced
+     goods (18 U.S.C. § 1159). This License's remedies supplement, and never
+     supplant, those statutory remedies.
+
+============================================================================
+9. PRIOR INFORMED CONSENT
+============================================================================
+
+9.1  REQUIREMENT. Any use beyond the Permissible Uses of Section 11 requires
+     free, prior, and informed consent ("FPIC") from the Licensor, on the
+     model of UNDRIP Articles 19 and 32. FPIC must be:
+     (a)  obtained in writing before the use begins;
+     (b)  based on full disclosure of purposes, methods, retention, and
+          outcomes, including any intended AI-related processing, which is
+          presumptively refused;
+     (c)  revocable at any time under Section 12;
+     (d)  non-transferable to any third party without explicit permission;
+          and
+     (e)  contingent upon periodic reporting of usage and outcomes.
+
+9.2  COMMUNITY CONSULTATION FOR SENSITIVE MATERIAL. Where a proposed use
+     reaches TK CS (culturally sensitive), TK SS (secret/sacred), TK CL
+     (clan), or TK SS-adjacent material, the Licensor will, before granting
+     consent, consult within the Community consistent with Community
+     Protocols. Silence is not consent.
+
+============================================================================
+10. PROHIBITED USES
+============================================================================
+
+The Work may not be used by any Licensee for:
+
+     (a)  training, fine-tuning, evaluating, or building Models (Section 5);
+     (b)  commercial applications without explicit written permission (TK NC);
+     (c)  any use that misappropriates, misrepresents, or distorts Indigenous
+          cultural expression;
+     (d)  any use violating the Licensor's moral rights of attribution and
+          integrity, including under 17 U.S.C. § 106A where applicable and
+          under contract for all components of the Work where § 106A does not
+          reach;
+     (e)  any application that harms or exploits Indigenous communities or
+          knowledge systems;
+     (f)  military applications or weapons development of any kind, including
+          naval weapons, maritime-domain surveillance systems, autonomous
+          vessel targeting, and battlefield command systems;
+     (g)  any use promoting cultural appropriation or stereotyping;
+     (h)  data mining, scraping, or extraction without FPIC (Sections 5, 9);
+     (i)  any use contrary to Community Protocols;
+     (j)  any use that fails to respect the spiritual or cultural significance
+          of embedded knowledge;
+     (k)  any use facilitating the sale, transfer, or alienation of Cultural
+          Patrimony, burial sites, human remains, or funerary and sacred
+          objects (Section 8);
+     (l)  surveillance, biometric exploitation, or identity profiling of
+          Community members (Section 5.5);
+     (m) use in maritime operations materially interfering with
+          Treaty-Protected Interests (Section 7.3(b)); and
+     (n)  removal, alteration, or falsification of CMI (Section 3.3).
+
+============================================================================
+11. PERMISSIBLE USES AND COMMUNITY BENEFIT
+============================================================================
+
+11.1 PERMISSIBLE USES. Subject to all conditions:
+     (a)  educational use with proper attribution and preserved cultural
+          context;
+     (b)  research use, provided findings are shared with the Licensor;
+     (c)  non-commercial Community development with prior notification;
+     (d)  uses that promote accurate cultural understanding and
+          representation; and
+     (e)  uses employing culturally appropriate methods of engagement with
+          the Work.
+
+11.2 COMMUNITY BENEFIT LICENSEES. Members of the Community (Section 1.8) —
+     expressly including Beaver Island Band families and descendants
+     regardless of GTB or LTBB enrollment — receive a standing, no-cost
+     license for non-commercial cultural, educational, language-
+     revitalization, resource-stewardship, and community-development uses,
+     conditioned only on observance of Community Protocols and Sections 3
+     (attribution) and 8 (patrimony protections). No Consent under Section 9
+     is needed for Section 11.2 uses. This Section, with Section 1.8, is the
+     mechanism by which this License delivers collective benefit as required
+     by the CARE Principles.
+
+============================================================================
+12. SOVEREIGN REVOCATION, TERMINATION, AND COMPLIANCE DUTIES
+============================================================================
+
+12.1 REVOCATION RIGHT. The Licensor reserves the express contractual and
+     license-conditioned right to revoke any Licensee's rights, with respect
+     to any Work embodying Traditional Knowledge or Cultural Expression, (a)
+     for material breach of any condition — automatically and immediately
+     (Section 2.2); and (b) as to TK-bearing components, upon 30 days'
+     written notice for any reason grounded in protection of the Community's
+     cultural integrity, exercise of Community Protocols, or defense of
+     Treaty-Protected Interests.
+
+12.2 FALLBACK LADDER. If a tribunal holds clause 12.1(b) unenforceable in
+     whole or part, the following remain fully in force, in descending order:
+     (i)  automatic termination for material breach (12.1(a));
+     (ii) revocation upon 90 days' notice for breach-of-protocol cause;
+     (iii) the non-renewable fixed term implied from the grant, with all
+          conditions surviving; and
+     (iv) injunctive relief under copyright law for continued use outside
+          scope (17 U.S.C. § 502).
+
+12.3 COMPLIANCE UPON REVOCATION. Upon notice of revocation, the Licensee
+     must: cease all use; remove and delete all copies, Derivative Data, and
+     quarantined Models (Section 5.6); provide written officer-signed
+     confirmation within 14 days; and, upon request, deliver up or attest to
+     destruction of derivative materials embodying the Work (consistent with
+     17 U.S.C. § 503 disposition remedies).
+
+12.4 NO PURPORTED CRIMINAL SANCTIONS. This License creates civil rights
+     only. Criminal provisions cited herein (e.g., 18 U.S.C. §§ 1158-1159)
+     are federal statutes enforceable by federal authorities, not by the
+     Licensor and not by any tribal forum; tribal criminal jurisdiction over
+     nonmembers is foreclosed by federal law (Oliphant v. Suquamish Indian
+     Tribe, 435 U.S. 191 (1978), and its narrow statutory exceptions, none of
+     which concern licensing).
+
+============================================================================
+13. COMPENSATION, DAMAGES, AND REMEDIES
+============================================================================
+
+13.1 ELECTION OF REMEDIES. For infringement or condition-breach, the
+     Licensor may elect, as authorized by law: (a) actual damages plus the
+     infringer's profits attributable to the infringement (17 U.S.C.
+     § 504(b)); or (b) statutory damages under 17 U.S.C. § 504(c), which for
+     willful infringement permit awards up to $150,000 per work infringed —
+     the congressional benchmark this License adopts as its reference
+     quantum; plus (c) full costs and attorney's fees (17 U.S.C. § 505); and
+     (d) for CMI violations, the separate remedies of 17 U.S.C. § 1203.
+
+13.2 CONTRACTUAL DAMAGES — PRIMARY ASSERTION. As bargained contractual
+     damages in addition to copyright remedies, the Licensor asserts: a
+     royalty of not less than 20% of gross revenue derived from unauthorized
+     use; liquidated damages of $10,000 per day of unauthorized use following
+     notice; and disgorgement of non-monetary benefit at fair market value.
+     The parties stipulate these figures are a reasonable pre-estimate of
+     harm that is genuinely difficult to quantify, including cultural and
+     spiritual harm not fully compensable in money.
+
+13.3 FALLBACK LADDER (DAMAGES). To the extent any amount in Section 13.2
+     is held an unenforceable penalty or otherwise reduced, the claim
+     automatically descends to the highest enforceable rung, without
+     interruption: (i) liquidated damages as judicially reduced or
+     blue-penciled; (ii) statutory damages under § 504(c), with willfulness
+     enhancement; (iii) the IACA benchmark of not less than $1,000 per day of
+     continuing violation where misrepresentation as Indigenous-produced
+     material is implicated (25 U.S.C. § 305e(b)); (iv) actual damages and
+     § 504(b) profits; and (v) restitution of the reasonable value of the
+     benefit conferred. No rung's failure affects the rungs below it.
+
+13.4 ADDITIONAL RECOVERABLE ITEMS. The Licensee is liable for: all legal
+     and professional fees incurred in pursuing recovery; costs of cultural
+     restoration where applicable; costs of public correction of
+     misrepresentations; and reasonable administrative costs of compliance
+     verification.
+
+13.5 DELIVER-UP, NOT SELF-HELP SEIZURE. The Licensor's remedies of
+     disposition are limited to court-ordered impoundment, forfeiture,
+     destruction, or deliver-up of infringing articles (17 U.S.C. § 503), and
+     to assignment of rights in derivative works where a tribunal so orders.
+     This License does not authorize self-help seizure of a Licensee's
+     equipment, domains, or accounts.
+
+13.6 NO ADVANCE WAIVER OF LIMITATIONS. Copyright claims are subject to the
+     three-year limitations period of 17 U.S.C. § 507(b), measured from when
+     each claim accrues; the Licensee stipulates that each day of a
+     continuing violation accrues anew. Contractual rights of revocation and
+     injunctive relief for cultural-protocol conditions are continuing and
+     not waived by delay; any purported advance waiver of limitations
+     defenses is excised under Section 17 rather than applied to bar
+     meritorious defenses of law.
+
+============================================================================
+14. DISPUTE RESOLUTION: TRIBAL COURTS, EXHAUSTION, COMITY, ARBITRATION
+============================================================================
+
+14.1 CONSENSUAL-RELATIONSHIP JURISDICTION. By accepting this License, every
+     Licensee enters a Consensual Relationship with a tribal member through
+     contract (Section 1.10), expressly consents to the civil jurisdiction of
+     the Grand Traverse Band Tribal Court for disputes under this License,
+     and waives objections to that court's personal jurisdiction over it for
+     such disputes. The Licensor asserts — and the Licensee does not contest
+     — that a licensing contract is a relationship "through commercial
+     dealing, contracts, leases, or other arrangements" under Montana v.
+     United States, 450 U.S. at 565, and that this nexus supports GTB civil
+     jurisdiction over the Licensee's compliance obligations.
+
+14.2 PRIMARY FORUM; TRIBAL EXHAUSTION. The Grand Traverse Band Tribal Court
+     is the primary forum for disputes concerning Community Protocols and the
+     cultural conditions of this License. Parties subject themselves to the
+     tribal exhaustion doctrine: tribal jurisdiction questions are decided
+     first by the tribal court itself (National Farmers Union Ins. Cos. v.
+     Crow Tribe, 471 U.S. 845 (1985); Iowa Mutual Ins. Co. v. LaPlante, 480
+     U.S. 9 (1987)). Copyright claims remain subject to exclusive federal
+     jurisdiction under 28 U.S.C. § 1338; the Licensee consents that federal
+     enforcement follow, rather than precede, the tribal court's rulings on
+     cultural and contractual conditions, and the Licensor may elect either
+     sequence.
+
+14.3 ALTERNATIVE TRIBAL FORUM. If the GTB Tribal Court declines, is unable,
+     or lacks subject-matter jurisdiction to proceed, the Licensor may
+     designate another federally recognized tribal court or traditional
+     dispute-resolution forum willing to accept the matter, with preference
+     for forums connected to the Ottawa and Chippewa Nations. The Licensee's
+     consent in Section 14.1 extends to such designated forum. This License
+     does not claim that tribal adjudicatory power over nonmembers is
+     unlimited; it rests on consent, on the Montana first exception, and on
+     the designated forum's own law.
+
+14.4 RECOGNITION OF TRIBAL JUDGMENTS — THE CORRECT MECHANISM. The Licensee
+     acknowledges: (a) 28 U.S.C. § 1738 does not by its terms govern tribal
+     judgments, and federal recognition of tribal court judgments rests on
+     comity, governed by Wilson v. Marchington, 127 F.3d 805 (9th Cir. 1997)
+     (recognition where the tribal court had jurisdiction, the proceeding was
+     conducted with due process, and the judgment does not affront the
+     recognizing court's public policy); (b) the Licensee stipulates, for
+     comity purposes and to the extent a court accepts stipulations of fact,
+     that the forums designated under this Section provide impartial tribunals
+     and due process; (c) in Michigan, recognition and enforcement of tribal
+     court judgments is governed by Michigan Court Rule 2.615; and (d)
+     statutory full-faith-and-credit obligations that do reach tribal orders
+     (e.g., 25 U.S.C. § 1911(d); 28 U.S.C. § 1738B; 18 U.S.C. § 2265) remain
+     unaffected by this License.
+
+14.5 WAIVER OF FORUM OBJECTIONS. The Licensee waives forum non conveniens
+     and similar discretionary objections to the forums designated under this
+     Section, to the extent such waivers are enforceable, consistent with the
+     policy favoring enforcement of forum-selection clauses.
+
+14.6 ARBITRATION LADDER (PRAGMATIC ENFORCEMENT TRACK). At the Licensor's
+     election, disputes may finally be resolved by arbitration under the
+     Federal Arbitration Act, 9 U.S.C. §§ 1-16, before arbitrators with
+     demonstrated federal Indian law expertise. An arbitral award is
+     confirmable in federal court under 9 U.S.C. § 9. The inclusion of this
+     track follows the structure by which Indian law questions are decided
+     alongside arbitral selection (cf. C&L Enterprises v. Citizen Band
+     Potawatomi Indian Tribe, 532 U.S. 411 (2001) (forum and waiver terms
+     construed strictly). This track exists so that an enforceable federal
+     judgment is always reachable even where comity recognition is uncertain.
+
+14.7 FEDERAL COURT ACCESS PRESERVED. Nothing in this Section divests the
+     federal courts of jurisdiction the Licensor may invoke under 28 U.S.C.
+     §§ 1331, 1338, or 1362 (the latter running to tribes as plaintiffs); nor
+     does it waive the Licensor's right to seek temporary or preliminary
+     injunctive relief in any court of competent jurisdiction to preserve the
+     status quo pending exhaustion or arbitration.
+
+============================================================================
+15. GOVERNING LAW AND INTERNATIONAL INSTRUMENTS
+============================================================================
+
+15.1 LAYERED GOVERNING LAW. This License is governed, in descending order
+     of primacy as each applies by its own force, by: (a) federal law of the
+     United States, including copyright law and federal Indian law; (b) the
+     Constitution, statutes, and common law of the Grand Traverse Band of
+     Ottawa and Chippewa Indians as to Community Protocols and consensual
+     tribal-jurisdiction matters; (c) Community Protocols (Annex B); (d) the
+     laws of the State of Michigan solely to the extent not in conflict with
+     (a)-(c); and (e) the Indigenous-rights norms of the instruments in
+     Annex A as interpretive authorities and rules of construction, each to
+     the precise extent of its legal status as stated there (binding treaty,
+     endorsed declaration, signed-unratified, or persuasive).
+
+15.2 INTERNATIONAL INCORPORATION TABLE. Annex A lists each cited
+     international instrument, its adoption date, its status for the United
+     States (party, signed-not-ratified, endorsed, non-party/persuasive), and
+     the sections of this License each supports. No instrument is claimed to
+     have force it does not have; several — including WIPO GRATK Art. 3 and
+     UNDRIP Arts. 11, 31, 37, and 40 — are adopted here as contractual
+     commitments binding the parties even where the instruments are not
+     self-executing or the United States is not a party.
+
+15.3 AMERICAN DECLARATION. The American Declaration on the Rights of
+     Indigenous Peoples (adopted by the OAS General Assembly, June 15, 2016)
+     supports this License's cultural-heritage and intellectual-property
+     positions as interpretive authority within the inter-American system.
+
+============================================================================
+16. IDENTITY OF RIGHTS; NO WAIVER; IMMUNITY RESERVED
+============================================================================
+
+16.1 INDIVIDUAL LICENSOR, COMMUNAL DIMENSIONS. The Licensor is an
+     individual member of a tribal nation. He asserts: (a) his private
+     property rights as author and copyright owner; (b) rights stewarded for
+     the Community in TK, TCEs, and Cultural Patrimony that no individual can
+     alienate (Section 8.1); and (c) treaty-informed cultural rights as a
+     beneficiary of the Treaties.
+
+16.2 NO PERSONAL CLAIM OF TRIBAL IMMUNITY. Tribal sovereign immunity
+     belongs to tribal governments and their arms and officials acting in
+     their official capacities (Michigan v. Bay Mills Indian Community, 572
+     U.S. 782 (2014); Kiowa Tribe v. Manufacturing Technologies, 523 U.S. 751
+     (1998)); an individual member acting privately does not personally hold
+     that immunity, and this License does not claim otherwise. Conversely,
+     nothing in this License, and no act of the Licensor, waives or diminishes
+     the sovereign immunity of the GTB, the LTBB, or any other tribal
+     government; and nothing herein purports to bind any tribal government.
+
+16.3 STANDING TO ENFORCE; FUTURE TRIBAL RECOGNITION. This License is
+     enforceable by the Licensor personally. If the GTB Tribal Council, an
+     LTBB governmental body, or a duly constituted Beaver Island Band
+     community authority adopts a resolution recognizing this License or the
+     Community's interest in the Work, such recognition shall supplement —
+     and never be required to support — the Licensor's private rights, and
+     may add the enforcing community's governmental remedies where law
+     permits.
+
+16.4 NO WAIVER. No failure to enforce any provision is a waiver. No
+     acceptance of performance is acquiescence in an unlicensed use.
+
+============================================================================
+17. SEVERABILITY AND THE ENFORCEMENT FALLBACK LADDER
+============================================================================
+
+17.1 BLUE-PENCIL RULE. If any provision of this License is held
+     unenforceable, it shall be reformed to the maximum enforceable scope;
+     if reformation is impossible, it is severed. Each maximal provision of
+     this License is paired with a fallback rung (Sections 12.2, 13.3); the
+     License is drafted to degrade gracefully, preserving the strongest
+     enforceable protection at every level rather than risking total
+     invalidation.
+
+17.2 SURVIVAL. Sections 1-5, 8, 10, 12.3, 13, 14, 15, 16, and 17 survive
+     termination or revocation to the extent needed to enforce accrued
+     rights, deletion duties, and remedies.
+
+============================================================================
+18. AMENDMENT, VERSIONING, AND NOTICE
+============================================================================
+
+18.1 VERSION-PINNED LICENSE. This License is version LicenseRef-
+     NbiishTribalSovereignty-2.0, identified, dated, and - where the Work is
+     distributed through a source repository - referenced by commit,
+     tag, or release. The Licensor may issue new versions. Each Licensee's
+     rights are governed by the version in force when the Licensee obtained
+     the Work; new versions apply only to copies or accessions obtained
+     thereafter. Unilateral retroactive amendment of vested rights is not
+     asserted.
+
+18.2 NOTICE. Notices under this License are effective upon written delivery
+     to the Licensee's registered agent, billing-or-technical contact of
+     record, or last known electronic address, and to the Licensor at the
+     contact published with the Work.
+
+============================================================================
+19. UNITED STATES GOVERNMENT RESTRICTED RIGHTS
+============================================================================
+
+If the Work is licensed to or through the United States Government or its
+prime contractors, the Work is "commercial computer software" and
+"commercial computer software documentation," licensed with only those
+Restricted Rights set forth in this License (cf. FAR 52.227-19; DFARS
+227.7202), and with no implied license rights beyond this License. AI
+training conditions (Section 5) apply to government users and contractors
+without exception.
+
+============================================================================
+ACCEPTANCE
+============================================================================
+
+ANY USE OF THIS WORK CONSTITUTES ACCEPTANCE OF THESE TERMS AND FORMS THE
+CONSENSUAL RELATIONSHIP DESCRIBED IN SECTION 1.10. IF YOU DO NOT ACCEPT, DO
+NOT USE THE WORK.
+
+============================================================================
+ANNEX A — TABLE OF CITED AUTHORITIES AND INSTRUMENT STATUS
+============================================================================
+
+INTERNATIONAL INSTRUMENTS (truthful status for the United States):
+
+  Instrument                                   US Status               License Use
+  -------------------------------------------  ----------------------  -------------
+  UNDRIP, GA Res. 61/295 (2007), Arts. 3, 4,   Declaration; US         Interpretive
+    11, 12, 18, 19, 26, 28, 31, 32, 36, 37,    endorsed 2010            + contract
+    38, 40, 46
+  American Declaration (OAS, June 15, 2016)    Adopted in OAS; US       Interpretive
+                                              interpretive authority
+  WIPO GRATK Treaty (adopted May 24, 2024)     NOT signed by US;        Art. 3 adopted
+    in force 3 months after 15 ratifications   not in force             as contract (§5.4)
+  ILO Convention No. 169 (1989)                US non-party             Persuasive
+  ICCPR (1966), Arts. 1, 27                    Ratified 1992 with       Interpretive
+                                              RUDs; non-self-executing
+  ICESCR (1966), Art. 15(1)(c)                 Signed 1977; NOT         Persuasive
+                                              ratified
+  ICERD (1965), Art. 5(e)(v)                   Ratified 1994 with       Interpretive
+                                              RUDs; non-self-executing
+  CBD (1992), Arts. 8(j), 10(c)                Signed 1993; NOT         Persuasive
+                                              ratified
+  Nagoya Protocol (2010)                       US non-party             Persuasive
+  UNESCO 2003 Intangible Cultural Heritage     US non-party to the      Persuasive
+    Convention                                 Convention
+  UNCLOS (1982)                                US non-party;            CIL backdrop
+                                              navigational norms        (§7.4)
+                                              accepted as CIL (US
+                                              Oceans Policy Statement,
+                                              1983)
+  IACtHR: Awas Tingni v. Nicaragua (2001);     Persuasive               Interpretive:
+    Saramaka People v. Suriname (2007)                                  collective
+                                                                        property
+  Boundary Waters Treaty (1909), 36 Stat. 2448 In force (US-Canada)     §7.6
+  UN HRC: Länsman v. Finland (1994);           Persuasive               Interpretive
+    Apirana Mahuika v. New Zealand (2000)
+
+STANDARDS AND COMMUNITY FRAMEWORKS (non-governmental; adopted as conditions):
+  CARE Principles for Indigenous Data Governance (Carroll et al., 2020,
+    DOI 10.5334/dsj-2020-043) — §§ 4.4, 11.2
+  IEEE 2890-2025, Provenance of Indigenous Peoples' Data — §4.4
+  Local Contexts TK Labels (Provenance, Protocol, Permission) — §4.2
+  Te Hiku Media Kaitiakitanga License (Aotearoa New Zealand) — architectural
+    precedent for guardianship-based data licensing; concepts adapted, not
+    merged (Māori and Anishinaabe legal traditions are distinct)
+
+UNITED STATES AUTHORITIES (selected):
+  Treaties: Treaty of Washington (1836), 7 Stat. 491; Treaty of Detroit
+    (1855), 11 Stat. 621; Treaty of Neah Bay (1855), 12 Stat. 939 (analogy)
+  Statutes: 17 U.S.C. §§ 102, 106, 106A, 411(a), 412, 502-505, 507(b),
+    1202-1203; 25 U.S.C. §§ 305e(b), 3001-3013, 1911(d); 18 U.S.C. §§ 2265,
+    1158-1159; 15 U.S.C. § 1125(a); 9 U.S.C. §§ 1-16; 28 U.S.C. §§ 1331,
+    1333, 1338, 1362, 1738B; MCR 2.615 (Michigan)
+  Cases: Jacobsen v. Katzer, 535 F.3d 1373 (Fed. Cir. 2008); Montana v.
+    United States, 450 U.S. 544 (1981); Wilson v. Marchington, 127 F.3d 805
+    (9th Cir. 1997); National Farmers Union, 471 U.S. 845 (1985); Iowa
+    Mutual, 480 U.S. 9 (1987); United States v. Winans, 198 U.S. 371 (1905);
+    Winters, 207 U.S. 564 (1908); Mille Lacs, 526 U.S. 172 (1999); McGirt,
+    140 S. Ct. 2452 (2020); Bay Mills, 572 U.S. 782 (2014); Kiowa, 523 U.S.
+    751 (1998); C&L Enterprises, 532 U.S. 411 (2001); Worcester v. Georgia,
+    31 U.S. (6 Pet.) 515 (1832); Williams v. Lee, 358 U.S. 217 (1959);
+    Blackfeet, 471 U.S. 759 (1985); Bryan, 426 U.S. 373 (1976); Oneida, 470
+    U.S. 226 (1985); Wheeler, 435 U.S. 313 (1978); Santa Clara Pueblo v.
+    Martinez, 436 U.S. 49 (1978); Oliphant, 435 U.S. 191 (1978); Choctaw
+    Nation v. Oklahoma, 397 U.S. 620 (1970); Holt State Bank, 270 U.S. 49
+    (1926); Alaska v. Native Village of Venetie, 522 U.S. 520 (1998); The
+    Paquete Habana, 175 U.S. 677 (1900); Anderson v. Evans (9th Cir. 2004);
+    Thomson Reuters v. Ross Intelligence, No. 20-cv-613 (D. Del. 2025);
+    United States v. Michigan, 2023 Consent Decree (W.D. Mich., entered
+    Aug. 24, 2023; aff'd 6th Cir. Mar. 2025; cert. denied Jan. 2026)
+
+============================================================================
+ANNEX B — COMMUNITY PROTOCOLS SCHEDULE
+============================================================================
+
+To be populated and updated by the Licensor in consultation with Community
+cultural authorities. Protocols recorded here are incorporated as conditions
+under Section 2.2 to the extent they are published with the Work. Until
+populated, Sections 4 and 9 govern.
+
+  B.1  Beaver Island Band family protocols: [to be recorded]
+  B.2  GTB cultural authority contacts: [to be recorded]
+  B.3  Seasonal, gender-specific, or ceremonial restrictions: [to be
+       recorded]
+
+============================================================================
+ANNEX C — SOURCE-FILE HEADER (COPYRIGHT MANAGEMENT INFORMATION)
+============================================================================
+
+The following block should appear in each source file of the Work and
+constitutes CMI under 17 U.S.C. § 1202(c) (Section 3.3):
+
+    /*
+     * Copyright © <year> ᓂᐲᔥ Nbiish-Justin Kenwabikise ᑭᓇᐙᐱᑭᓯ
+     * Grand Traverse Band member; Beaver Island Band descendant.
+     * LicenseRef-NbiishTribalSovereignty-2.0 — restricted use; see LICENSE.
+     * TK Labels: TK A, TK CS, TK CO, TK NC, TK V, TK MC (Local Contexts)
+     * AI training, TDM, scraping, and data extraction PROHIBITED (§5).
+     * Removal of this header violates 17 U.S.C. § 1202(b).
+     */
+
+============================================================================
+END OF LICENSE
+============================================================================
