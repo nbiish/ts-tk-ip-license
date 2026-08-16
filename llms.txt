@@ -82,6 +82,7 @@ When the user requests a durable behavior change, record it here or in the relev
 
 - No child llms.txt files currently exist.
 - Root-owned files: `README.md`, `LICENSE` (personal instance, LicenseRef-NbiishTribalSovereignty-2.0), `comprehensive-license/LICENSE` (public template v2.0), `for-me/LICENSE` (personal comprehensive variant — v1, pending sync), `license-citation.mdc` (Cursor rule embedding v1 text — pending sync), root-level project documentation, and `.agents/tasks/` records.
+- `docs/` (root-owned, no child llms.txt yet): evidence and records support for the license's cultural-patrimony protections. Rule: facts + provenance only; no allegations or character claims in repo documents; every document needs a stated source path. See `docs/affidavit-template.md`, `docs/records-request-plan.md`.
 
 ## License Drafting Invariants (v2.0 onward)
 
