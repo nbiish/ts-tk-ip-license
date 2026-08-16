@@ -81,8 +81,10 @@ When the user requests a durable behavior change, record it here or in the relev
 ## Child DOX Index
 
 - No child llms.txt files currently exist.
-- Root-owned files: `README.md`, `LICENSE` (personal instance, LicenseRef-NbiishTribalSovereignty-2.0), `comprehensive-license/LICENSE` (public template v2.0), `for-me/LICENSE` (personal comprehensive variant — synced to v2.0), `license-citation.mdc` (Cursor rule embedding v2.0 text), root-level project documentation, and `.agents/tasks/` records.
-- `docs/` (root-owned, no child llms.txt yet): evidence and records support for the license's cultural-patrimony protections. Rule: facts + provenance only; no allegations or character claims in repo documents; every document needs a stated source path. See `docs/affidavit-template.md`, `docs/records-request-plan.md`.
+- Repo structure follows the operator's "IP BACK" restructure (2026-08-16): public repo carries templates and shared resources; personal IP lives in `for-me/`; `.cursor*` tooling is gitignored.
+- Root-owned files: `README.md` (hub), `for-tribal-members/LICENSE` (public template v2.0 — 19 sections + 3 annexes, verified citations), `for-me/LICENSE` (operator's personal license — operator-authored lineage; treat as operator-owned: do not restructure or overwrite without explicit direction), `docs/` (evidence & records support), `.agents/tasks/` records, root-level project documentation.
+- Root `LICENSE` and `license-citation.mdc` were intentionally deleted by the operator ("IP BACK"); do not resurrect them into the public tree. The v2.0 personal-license text survives in git history on `feat/legal-framework-expansion`.
+- `docs/` (root-owned, no child llms.txt yet): evidence and records support for cultural-patrimony protections. Rule: facts + provenance only; no allegations or character claims in repo documents; every document needs a stated source path. See `docs/affidavit-template.md`, `docs/records-request-plan.md`.
 
 ## License Drafting Invariants (v2.0 onward)
 
